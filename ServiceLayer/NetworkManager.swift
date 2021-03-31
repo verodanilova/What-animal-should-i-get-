@@ -1,24 +1,12 @@
 //
-//  Questions.swift
+//  NetworkManager.swift
 //  What animal should i get?
 //
-//  Created by Tanya on 25.03.2021.
+//  Created by Tanya on 26.03.2021.
 //
 
-import Foundation
+import UIKit
 import Alamofire
-
-struct Question: Decodable {
-    let text: String
-    let type: ResponseType
-    let answers: [Answer]
-}
-
-enum ResponseType: String, Decodable {
-    case single
-    case multiple
-    case ranged
-}
 
 extension Question {
     
@@ -27,9 +15,9 @@ extension Question {
         let urlString = "https://www.googleapis.com/drive/v3/files/1jvtQz8jbQL43mZXgzl-tzSMAPwSygpiM/?key=AIzaSyB94CBGeUnPAElekWjSEGSeR8fsgcXp2X0&alt=media"
         
         if let url = URL(string: urlString) {
-          AF.request(url)
-            .validate()
-             .responseData { dataResponse in
+            AF.request(url)
+                .validate()
+                .responseData { dataResponse in
                     switch dataResponse.result {
                     case .success(let value):
                         let decoder = JSONDecoder()

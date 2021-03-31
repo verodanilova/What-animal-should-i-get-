@@ -50,6 +50,7 @@ enum AnimalType: Character, Decodable {
     }
     
     var definitionAnimal: String {
+        
         switch self {
         case .cat:
             return "You are restrained and love freedom. You value not the quantity, but the quality of your friends"

@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		11524BDDDFB0063C2F2BB53F /* Pods_What_animal_should_i_get_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC3C882655DF4592DA4CE79C /* Pods_What_animal_should_i_get_.framework */; };
+		2B012280260E337500D15E84 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01227F260E337500D15E84 /* NetworkManager.swift */; };
+		2B012287260E385700D15E84 /* QuestionsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B012286260E385700D15E84 /* QuestionsPresenter.swift */; };
+		2B01228E2612024F00D15E84 /* ResultsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01228D2612024F00D15E84 /* ResultsPresenter.swift */; };
+		2B01B4082614C83A0086B24A /* IntroductionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B01B4072614C83A0086B24A /* IntroductionPresenter.swift */; };
 		2B3D6F21260CCFE7009C594E /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D6F20260CCFE7009C594E /* Answers.swift */; };
 		2B3D6F24260CCFFC009C594E /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D6F23260CCFFC009C594E /* Questions.swift */; };
-		2B3D6F2A260CD146009C594E /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D6F29260CD146009C594E /* IntroductionViewController.swift */; };
+		2B3D6F2A260CD146009C594E /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D6F29260CD146009C594E /* IntroductionView.swift */; };
 		2B538F7F260CA8B00075B0FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B538F7E260CA8B00075B0FA /* AppDelegate.swift */; };
 		2B538F81260CA8B00075B0FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B538F80260CA8B00075B0FA /* SceneDelegate.swift */; };
 		2B538F86260CA8B00075B0FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B538F84260CA8B00075B0FA /* Main.storyboard */; };
 		2B538F89260CA8B00075B0FA /* What_animal_should_i_get_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B538F87260CA8B00075B0FA /* What_animal_should_i_get_.xcdatamodeld */; };
 		2B538F8B260CA8B30075B0FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B538F8A260CA8B30075B0FA /* Assets.xcassets */; };
 		2B538F8E260CA8B30075B0FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B538F8C260CA8B30075B0FA /* LaunchScreen.storyboard */; };
-		2BBDA492260CD55D00EE6F0C /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDA491260CD55D00EE6F0C /* QuestionsViewController.swift */; };
-		2BBDA495260CD59F00EE6F0C /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDA494260CD59F00EE6F0C /* ResultsViewController.swift */; };
+		2BBDA492260CD55D00EE6F0C /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDA491260CD55D00EE6F0C /* QuestionsView.swift */; };
+		2BBDA495260CD59F00EE6F0C /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBDA494260CD59F00EE6F0C /* ResultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		15DF82FD6D22D0F26BC70D4E /* Pods-What animal should i get?.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What animal should i get?.release.xcconfig"; path = "Target Support Files/Pods-What animal should i get?/Pods-What animal should i get?.release.xcconfig"; sourceTree = "<group>"; };
+		2B01227F260E337500D15E84 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2B012286260E385700D15E84 /* QuestionsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsPresenter.swift; sourceTree = "<group>"; };
+		2B01228D2612024F00D15E84 /* ResultsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsPresenter.swift; sourceTree = "<group>"; };
+		2B01B4072614C83A0086B24A /* IntroductionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionPresenter.swift; sourceTree = "<group>"; };
 		2B3D6F20260CCFE7009C594E /* Answers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
 		2B3D6F23260CCFFC009C594E /* Questions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
-		2B3D6F29260CD146009C594E /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		2B3D6F29260CD146009C594E /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		2B538F7B260CA8B00075B0FA /* What animal should i get?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What animal should i get?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B538F7E260CA8B00075B0FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2B538F80260CA8B00075B0FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,8 +42,9 @@
 		2B538F8A260CA8B30075B0FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B538F8D260CA8B30075B0FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B538F8F260CA8B30075B0FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BBDA491260CD55D00EE6F0C /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
-		2BBDA494260CD59F00EE6F0C /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		2BB877222614FCAD00A5A2AF /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		2BBDA491260CD55D00EE6F0C /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		2BBDA494260CD59F00EE6F0C /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		97A916C0B39206E31C8E8FD0 /* Pods-What animal should i get?.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What animal should i get?.debug.xcconfig"; path = "Target Support Files/Pods-What animal should i get?/Pods-What animal should i get?.debug.xcconfig"; sourceTree = "<group>"; };
 		FC3C882655DF4592DA4CE79C /* Pods_What_animal_should_i_get_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What_animal_should_i_get_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -55,7 +64,8 @@
 		2B538F72260CA8B00075B0FA = {
 			isa = PBXGroup;
 			children = (
-				2B538F7D260CA8B00075B0FA /* What animal should i get? */,
+				2B538F7D260CA8B00075B0FA /* MVP module */,
+				2BBDA497260CDF4D00EE6F0C /* ServiceLayer */,
 				EA31D2DEBE531860F66AA53F /* Pods */,
 				FA2D0C96791494294A7CE34A /* Frameworks */,
 			);
@@ -70,20 +80,19 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		2B538F7D260CA8B00075B0FA /* What animal should i get? */ = {
+		2B538F7D260CA8B00075B0FA /* MVP module */ = {
 			isa = PBXGroup;
 			children = (
 				2B538F9B260CAA6C0075B0FA /* Models */,
 				2B538F9A260CAA340075B0FA /* Views */,
 				2B538F9C260CAA7A0075B0FA /* Presenters */,
 				2B538F97260CA9C00075B0FA /* Storyboards */,
-				2BBDA497260CDF4D00EE6F0C /* ServiceLayer */,
 				2B538F98260CA9E90075B0FA /* SupportingFiles */,
 				2B538F99260CAA220075B0FA /* Sources */,
 				2B538F7C260CA8B00075B0FA /* Products */,
 				2B538F87260CA8B00075B0FA /* What_animal_should_i_get_.xcdatamodeld */,
 			);
-			path = "What animal should i get?";
+			path = "MVP module";
 			sourceTree = "<group>";
 		};
 		2B538F97260CA9C00075B0FA /* Storyboards */ = {
@@ -116,9 +125,9 @@
 		2B538F9A260CAA340075B0FA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2B3D6F29260CD146009C594E /* IntroductionViewController.swift */,
-				2BBDA491260CD55D00EE6F0C /* QuestionsViewController.swift */,
-				2BBDA494260CD59F00EE6F0C /* ResultsViewController.swift */,
+				2B3D6F29260CD146009C594E /* IntroductionView.swift */,
+				2BBDA491260CD55D00EE6F0C /* QuestionsView.swift */,
+				2BBDA494260CD59F00EE6F0C /* ResultsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -135,6 +144,9 @@
 		2B538F9C260CAA7A0075B0FA /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				2B01B4072614C83A0086B24A /* IntroductionPresenter.swift */,
+				2B012286260E385700D15E84 /* QuestionsPresenter.swift */,
+				2B01228D2612024F00D15E84 /* ResultsPresenter.swift */,
 			);
 			path = Presenters;
 			sourceTree = "<group>";
@@ -142,6 +154,7 @@
 		2BBDA497260CDF4D00EE6F0C /* ServiceLayer */ = {
 			isa = PBXGroup;
 			children = (
+				2B01227F260E337500D15E84 /* NetworkManager.swift */,
 			);
 			path = ServiceLayer;
 			sourceTree = "<group>";
@@ -206,6 +219,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 2B538F72260CA8B00075B0FA;
 			productRefGroup = 2B538F7C260CA8B00075B0FA /* Products */;
@@ -277,14 +291,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B3D6F2A260CD146009C594E /* IntroductionViewController.swift in Sources */,
-				2BBDA492260CD55D00EE6F0C /* QuestionsViewController.swift in Sources */,
+				2B01B4082614C83A0086B24A /* IntroductionPresenter.swift in Sources */,
+				2B012280260E337500D15E84 /* NetworkManager.swift in Sources */,
+				2B3D6F2A260CD146009C594E /* IntroductionView.swift in Sources */,
+				2B01228E2612024F00D15E84 /* ResultsPresenter.swift in Sources */,
+				2BBDA492260CD55D00EE6F0C /* QuestionsView.swift in Sources */,
 				2B538F7F260CA8B00075B0FA /* AppDelegate.swift in Sources */,
 				2B538F81260CA8B00075B0FA /* SceneDelegate.swift in Sources */,
 				2B3D6F24260CCFFC009C594E /* Questions.swift in Sources */,
+				2B012287260E385700D15E84 /* QuestionsPresenter.swift in Sources */,
 				2B3D6F21260CCFE7009C594E /* Answers.swift in Sources */,
 				2B538F89260CA8B00075B0FA /* What_animal_should_i_get_.xcdatamodeld in Sources */,
-				2BBDA495260CD59F00EE6F0C /* ResultsViewController.swift in Sources */,
+				2BBDA495260CD59F00EE6F0C /* ResultsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +313,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2B538F85260CA8B00075B0FA /* Base */,
+				2BB877222614FCAD00A5A2AF /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -314,6 +333,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -375,6 +395,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -433,7 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "What animal should i get?/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "MVP module/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "What animal should i get?/SupportingFiles/Info.plist";
+				INFOPLIST_FILE = "MVP module/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
